@@ -39,8 +39,15 @@ FirstPrinciples Kart
 
 ## Build Setup for server-side
 
+• Go inside `Server` path in terminal and just type npm install.
+
+• Create `.env` file in root directory of server folder and set the variable as mention in `config/env.sample.js` file. 
+
+• Now, run the script `npm run dev`.
+
+
 ### Prerequisite
-```
+
 1. Setup [Razorpay](https://razorpay.com/) dashboard in test mode and generate KEY_ID & KEY_SECRET.
 
 2. Create an account on [AWS console](https://aws.amazon.com/) and set your region. 
@@ -49,11 +56,3 @@ FirstPrinciples Kart
     • After that create user on IAM service, where you get ACCESS_KEY_ID & SECRET_ACCESS_KEY.
 
 3. Setup [mongoDB](https://www.mongodb.com/) database where you get MONGO_URL
-
-```
-
-• Go inside `Server` path in terminal and just type npm install.
-
-• Create `.env` file in root directory of server folder and set the variable as mention in `config/env.sample.js` file. 
-
-• Now, run the script `npm run dev`.
