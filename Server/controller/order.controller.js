@@ -5,8 +5,8 @@ const shortid = require('shortid')
 const createError = require('http-errors')
 
 const razorpay = new Razorpay({
-    key_id: 'rzp_test_OySIcjLvv0NCGK',
-    key_secret: 'XKJ4JKCEcBrnWx5GHrMXXqYn'
+    key_id: process.env.RAZORPAY_KEY_ID,
+    key_secret: process.env.RAZORPAY_KEY_SECRET
 })
 
 
@@ -136,37 +136,3 @@ module.exports = {
         }
     }
 }
-
-
-// {
-//     id: 'pay_HOwydWMOyt5iwW',
-//     entity: 'payment',
-//     amount: 159900,
-//     currency: 'INR',
-//     status: 'captured',
-//     order_id: 'order_HOwyFbEScGTDpd',
-//     invoice_id: null,
-//     international: false,
-//     method: 'upi',  method: 'card',
-//     amount_refunded: 0,
-//     refund_status: null,
-//     captured: true,
-//     description: 'Complete your order to pay the amount.',
-//     card_id: null,
-//     bank: null,
-//     wallet: null,
-//     vpa: '9504583841@ybl',
-//     email: 'keshavpriyadarshi93@gmail.com',
-//     contact: '+919504583841',
-//     notes: { address: 'Razorpay Corporate Office' },
-//     fee: 3774,
-//     tax: 576,
-//     error_code: null,
-//     error_description: null,
-//     error_source: null,
-//     error_step: null,
-//     error_reason: null,
-//     acquirer_data: {
-//       rrn: '547243410798',
-//       upi_transaction_id: '3BA67D54313CD95FC2CC608CF0D930D6'
-//     } acquirer_data: { auth_code: '961374' }

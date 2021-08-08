@@ -10,7 +10,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "keshav",
+  "author": "keshav_priyadarshi",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.943.0",
@@ -28,7 +28,6 @@
     "uuid": "^3.4.0"
   },
   "devDependencies": {
-    "concurrently": "^6.2.0",
     "nodemon": "^2.0.12"
   }
 }
