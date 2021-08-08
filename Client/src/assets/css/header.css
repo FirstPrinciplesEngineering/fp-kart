@@ -1,0 +1,70 @@
+.navbar-light .navbar-toggler{
+    border: none;
+    color: #fff;
+}
+
+
+@media (max-width: 988px){
+    .navbar-collapse{
+        background: #fff;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+    }
+    .banner{
+        padding: 200px 0;
+    }
+    .banner h2{
+        font-size: 1.8em;
+    }
+    .header_svg{
+        position: static;
+    }
+}
+
+
+@media (max-width: 768px)
+{
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+    }
+
+    .menu-toggle::before{
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+
+    .menu-toggle.active::before{
+        content: '\f00d';
+    }
+    
+    nav{
+        display: none;
+    }
+
+    nav.active{
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+
+    nav.active ul {
+        display: block;
+        height: 50vh;
+    }
+    
+    nav.active ul li{
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,55 @@
+.main_footer{
+    background: #4d05e8;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.footer p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 550;
+}
+.footer .socialIcons{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.footer hr{
+    background: white;
+    width: 50%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.companyLogo{
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+@media (max-width:600px){
+  .redirect{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  }
+}

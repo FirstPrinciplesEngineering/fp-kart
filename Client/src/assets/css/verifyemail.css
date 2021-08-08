@@ -1,0 +1,26 @@
+.verifyEmail{
+    min-height : 20vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.verifyEmail .success{
+    padding: 20px;
+    background-color: rgb(122, 241, 122);
+    color: white;
+    border-radius: 10px;
+}
+
+.verifyEmail .error{
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+
+.verifyEmail button{
+    background-color:#4d05e8;
+    color: white;
+    font-weight: 600;
+}

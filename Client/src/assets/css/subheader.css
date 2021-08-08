@@ -1,0 +1,76 @@
+header{
+    position: fixed;
+    z-index: 10;
+    width: 100%
+}
+
+.header_svg{
+    position: absolute;
+    top: 81%;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    position: relative; 
+}
+
+.nav-hover a:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px; 
+
+    /* center - (optional) use with adjusting width   */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 0%;
+      
+    /* optional animation */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+ 
+
+ /* optional hover classes used with anmiation */
+ .nav-hover a:hover:after {
+      width: 50%;
+      background: magenta;
+}
+
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #262626;
+    padding: 5px 15px;
+}
+
+.cartIcon{
+    position: relative;
+}
+
+.cartNum{
+    position: absolute;
+    left: 1;
+    right: 0;
+    top: 0;
+    background-color: #4d05e8;
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+}
+
+@media (max-width: 988px){
+    .cartNum{
+        right: 46%;
+    }
+}
+
+@media (max-width: 500px){
+    .cartNum{
+        right: 42%;
+    }
+} 
