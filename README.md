@@ -5,7 +5,7 @@ FirstPrinciples Kart
 
 [CartHunt](https://carthunt.herokuapp.com/) is an E-Commerce application where we have multiple category of products. In this application, we have two dashboard one for user and one for admin. In admin dashboard, admin can perform all CRUD operation on category & products also update order status. In User dashboard user can update their profile & password. 
 
-**Note: User can provide feedbacks on products once they logged in.**
+**Note: User can rate the products once they logged in.**
 
 
 ### Stack Used
