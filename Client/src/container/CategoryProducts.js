@@ -87,7 +87,10 @@ const CategoryProducts = ({ match }) => {
                                                         <Card.Text>{items.name}</Card.Text>
                                                         <Card.Text>Pack of {items.product_details && items.product_details.items_in_pack}</Card.Text>
                                                         <Card.Text>₹ {items.price}</Card.Text>
-                                                        <Ratings rating={items.rating} numReview={items.reviews.length} />
+                                                        {
+                                                            items.rating > 0 &&
+                                                            <Ratings rating={items.rating} numReview={items.reviews.length} />
+                                                        }
                                                     </Card.Body>
                                                 </Card>
                                             </Col>

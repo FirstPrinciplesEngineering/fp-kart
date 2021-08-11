@@ -38,7 +38,8 @@ const SubHeader = (props) => {
                 <nav className="navbar navbar-expand-lg navbar-light" >
 
                     <Link to="/">
-                        <p style={{ marginTop: '5px', fontSize: '2em', color: '#4d05e8' }}>fp<span style={{ color: 'magenta' }}>Kart</span></p>
+                        {/* <p style={{ marginTop: '5px', fontSize: '2em', color: '#4d05e8' }}>fp<span style={{ color: 'magenta' }}>Kart</span></p> */}
+                        <img style={{padding:'20px'}} src="https://firstprinciples.io/wp-content/uploads/2021/04/FirstPrinciples_Logo.svg" alt="logo"/>
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

@@ -15,13 +15,13 @@ const Footer = () => {
                     <p>Follow Us</p>
                     <div className='socialIcons'>
                         <a href="https://www.instagram.com/keshavpk2426/" target="blank" className="social">
-                            <i style={{fontSize:'2em'}}  className="fa fa-instagram"></i>
+                            <i style={{ fontSize: '2em' }} className="fa fa-instagram"></i>
                         </a>
                         <a href="https://twitter.com/keshavp_26" target="blank" className="social">
-                            <i style={{fontSize:'2em'}}  className="fa fa-twitter"></i>
+                            <i style={{ fontSize: '2em' }} className="fa fa-twitter"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/keshav-priyadarshi-877449125/" target="blank" className="social">
-                            <i style={{fontSize:'2em'}}  className="fa fa-linkedin"></i>
+                            <i style={{ fontSize: '2em' }} className="fa fa-linkedin"></i>
                         </a>
                     </div>
                     <hr />
@@ -35,7 +35,10 @@ const Footer = () => {
                 </Row>
 
                 <Col className='companyLogo'>
-                    <h1><span style={{ color: 'magenta' }}>fp</span>Kart</h1>
+                    {/* <h1><span style={{ color: 'magenta' }}>fp</span>Kart</h1> */}
+                    <div>
+                        <img style={{ width: '25px' }} src="https://firstprinciples.io/wp-content/uploads/2021/04/FirstPrinciples_Logo.svg" alt="logo" />
+                    </div>
                     <small>Welcome to our store</small>
 
                 </Col>
