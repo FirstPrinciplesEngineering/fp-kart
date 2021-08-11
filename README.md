@@ -1,7 +1,6 @@
-# fp-kart
-FirstPrinciples Kart
+# fp-kart - FirstPrinciples Kart
 
-# E-commerce Application (fpKart)
+# E-commerce Application using MERN Stack
 
 [fpKart](#) is an E-Commerce application where we have multiple category of products. In this application, we have two dashboard one for user and one for admin. In admin dashboard, admin can perform all CRUD operation on category & products also update order status. In User dashboard user can update their profile & password. 
 
