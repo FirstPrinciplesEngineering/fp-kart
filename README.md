@@ -6,6 +6,14 @@
 
 **Note: User can rate the products once they logged in.**
 
+![alt text]( https://i.ibb.co/cNcDSGL/2021-08-11-1.png)
+![alt text]( https://i.ibb.co/vBGzKJ5/2021-08-11-3.png)
+![alt text]( https://i.ibb.co/BZ490MX/2021-08-11-4.png)
+![alt text]( https://i.ibb.co/vXNhbz1/2021-08-11-6.png)
+![alt text]( https://i.ibb.co/6wy9nF5/2021-08-11-5.png)
+![alt text]( https://i.ibb.co/Yt2BrBN/2021-08-11-7.png)
+
+
 
 ### Stack Used
 ```

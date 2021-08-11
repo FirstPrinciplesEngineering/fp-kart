@@ -35,13 +35,13 @@ const Footer = () => {
                 </Row>
 
                 <Col className='companyLogo'>
-                    <h1><span style={{ color: 'magenta' }}>Cart</span>Hunt</h1>
+                    <h1><span style={{ color: 'magenta' }}>fp</span>Kart</h1>
                     <small>Welcome to our store</small>
 
                 </Col>
 
                 <Col className='copyright'>
-                    <center><h6>Copyright &#169;Cart Hunt 2021 | All rights reserved</h6> </center>
+                    <center><h6>Copyright &#169; fpKart 2021 </h6> </center>
                 </Col>
             </div>
         </div>
